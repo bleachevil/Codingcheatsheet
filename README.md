@@ -11,3 +11,14 @@ print("hello world")
 *I live downtown mississagua*
 
 ![](https://github.com/bleachevil/Codingcheatsheet/blob/main/download.jpg?raw=true)
+
+
+```git
+git add
+```
+```git
+git commit -m ""
+```
+```git
+git push origin main
+```

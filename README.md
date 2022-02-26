@@ -1,17 +1,98 @@
 # Codingcheatsheet
-## Codingcheatsheet
-### Codingcheatsheet
+
+## Markdown Syntax
+
+#### Table
+
+| Syntax | Description |
+| ----------- | ----------- |
+| Header | Title |
+| Paragraph | Text |
+
+
+#### Fenced Code Block (Copy code)
+
+```
+{
+  "firstName": "John",
+  "lastName": "Smith",
+  "age": 25
+}
+```
 ```python
 print("hello world")
 ```
+
+#### Footnote
+Here's a sentence with a footnote. [^1]
+
+[^1]: This is the footnote.
+
+
+#### Heading ID ???
+
+### My Great Heading {#custom-id}
+
+
+#### Definition List
+
+term
+: definition
+
+
+#### Strikethrough
+
+~~The world is flat.~~
+
+#### Take List
+
+- [x] Write the press release
+- [ ] Update the website
+- [ ] Contact the media
+
+
+#### Emoji
+
+That is so funny! :joy:
+
+#### Textsize
+
+## Codingcheatsheet
+### Codingcheatsheet
+
+
+#### Bold
+
 **my name is Jeff, i am business planning manager**
 
+
+#### Highlight ??
+
+I need to highlight these 
+== very important words ==.
+
+
+####  line
 <hr />
+
+#### Italic
 
 *I live downtown mississagua*
 
+#### Picture
+
 ![](https://github.com/bleachevil/Codingcheatsheet/blob/main/download.jpg?raw=true)
 
+
+#### Subscript
+
+H~2~O
+
+#### Superscript
+
+X^2^
+
+## Git
 
 ```git
 git add

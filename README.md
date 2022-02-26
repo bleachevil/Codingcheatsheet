@@ -33,6 +33,10 @@ Here's a sentence with a footnote. [^1]
 
 ### My Great Heading {#custom-id}
 
+#### Space
+
+i love you<br />
+you love me
 
 #### Definition List
 
@@ -153,3 +157,31 @@ a[:: -1]
 ## jump 2
 if x / 2 ==0
 list[0::2]
+
+## while
+```
+i = 1
+while i < 6:
+  print(i)
+  i += 1
+```
+**stop at 5**
+```
+i = 1
+while i < 6:
+  print(i)
+  if i == 3:
+    break
+  i += 1  #same i = i+1
+```
+**stop at 3**
+
+```
+i = 0
+while i < 6:
+  i += 1
+  if i == 3:
+    continue
+  print(i)
+```
+**start with 3 and finishe until 5**

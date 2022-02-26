@@ -137,3 +137,19 @@ age > 21 False
 age <= 21 True
 age != 21 False
 ```
+
+## list vs Tuper
+a [1,2,3,]   access the list by index
+b = [ (John,1), (Allen,2)]
+
+## calculation
+
+** = ^
+% = /
+
+## reverse list
+a[:: -1]
+
+## jump 2
+if x / 2 ==0
+list[0::2]

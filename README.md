@@ -117,3 +117,8 @@ MINUTE      = datetime.datetime.now().minute
 SECONDS     = datetime.datetime.now().second
 ```
 print(YEAR, MONTH, DATE, HOUR, MINUTE, SECONDS)
+
+##add variable with text
+```
+print(f"text {variable}")
+```

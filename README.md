@@ -118,7 +118,16 @@ SECONDS     = datetime.datetime.now().second
 ```
 print(YEAR, MONTH, DATE, HOUR, MINUTE, SECONDS)
 
-##add variable with text
+## add variable with text
 ```
 print(f"text {variable}")
 ```
+
+## equal sign
+```
+one = sign is variable assignment 
+two == is the confirmatin of the equal
+!= mean is not equal
+
+```
+

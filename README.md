@@ -68,8 +68,7 @@ That is so funny! :joy:
 
 #### Highlight ??
 
-I need to highlight these 
-== very important words ==.
+I need to highlight these ==very important words==.
 
 
 ####  line
@@ -91,6 +90,10 @@ H~2~O
 #### Superscript
 
 X^2^
+
+
+<hr />
+https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
 
 ## Git
 

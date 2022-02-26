@@ -128,6 +128,12 @@ print(f"text {variable}")
 one = sign is variable assignment 
 two == is the confirmatin of the equal
 != mean is not equal
-
 ```
 
+## Boolean (Computer logic operation)
+```
+age == 21 True
+age > 21 False
+age <= 21 True
+age != 21 False
+```

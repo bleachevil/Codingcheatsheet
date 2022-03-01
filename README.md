@@ -185,3 +185,40 @@ while i < 6:
   print(i)
 ```
 **start with 3 and finishe until 5**
+
+## arrart slicing
+a[-3:] last 3
+a[:3] last 3
+
+a[:-3] first 2
+
+a[1:3] the 1 is including and 3 is excluding
+
+a[:: 2] every other element the arrary.
+
+a[:: -1] reverse array
+
+
+## list
+add two list 
+[var+var]
+
+
+## queue vs stack
+queue = FIFO
+Stack = LIFO
+collection model
+
+a.append() add item in the list
+a.pop() stack impliementation  remove the list
+a.pop(position) position = index 1,2,3,4 remove the one the in the index
+append + pop(0) = queue
+append + pop = stack
+
+a.index('position')
+a.insert(index, item) example a.insert(1,'no')
+a.remove('no') only remove first one add
+
+## tuple
+tuple(enumerate(list))
+dict(enumerate(list))

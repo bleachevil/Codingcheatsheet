@@ -111,6 +111,11 @@ git commit -m ""
 git push origin main
 ```
 
+# Python
+
+## control C 
+to stop
+
 ## day and time only
 ```
 YEAR        = datetime.date.today().year
@@ -219,6 +224,48 @@ a.index('position')
 a.insert(index, item) example a.insert(1,'no')
 a.remove('no') only remove first one add
 
+a_np = a.array(
+np.ramdom.sample(1)
+
 ## tuple
 tuple(enumerate(list))
 dict(enumerate(list))
+
+##  json is dictionary
+key value pair of
+
+list.keys()   = the keys
+list.values() = the values
+
+Dict[4] = value 
+del Dict[4]
+
+
+
+
+## function
+input to output
+
+## import csv
+rows = []
+
+file = open('file.csv')
+csvreader = csv.reader(file)
+header = next(csvreader)
+print(header)
+for row in csvreader:
+    rows.append(row)
+
+## split
+list = []
+
+option1 = res1, res2 = map(list, zip(*list))
+option2 = res1 = [i[1] for i in list], 
+res2 = [i[0] for i in list]
+
+
+## search in the list
+Greatest = max(res2)
+for Great in rows:
+    if Greatest in Great:
+        element_in_lists = True

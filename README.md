@@ -269,3 +269,14 @@ Greatest = max(res2)
 for Great in rows:
     if Greatest in Great:
         element_in_lists = True
+        
+## day
+from datetime import date, timedelta
+import datetime
+ 
+today = date.today()
+td = timedelta(1001)
+open_day = today - td
+close_day = today - timedelta(1) 
+openeday = open_day.strftime("%Y-%m-%d")
+closeday = close_day.strftime("%Y-%m-%d")

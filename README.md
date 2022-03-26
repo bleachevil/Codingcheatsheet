@@ -303,3 +303,6 @@ df_stock_data = data.merge(data2, how="inner", left_index=True, right_index=True
 df_stock_data
 # Display sample data
 df_stock_data.head()
+
+## data vision
+https://hvplot.holoviz.org/reference/pandas/scatter.html#pandas-gallery-scatter

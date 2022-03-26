@@ -280,3 +280,26 @@ open_day = today - td
 close_day = today - timedelta(1) 
 openeday = open_day.strftime("%Y-%m-%d")
 closeday = close_day.strftime("%Y-%m-%d")
+
+## multiindex columns
+data = alpaca.get_bars('AGG', TimeFrame.Day, start_date, end_date, adjustment='raw').df
+data.drop(columns=['trade_count','vwap'], inplace=True)
+name = 'AGG'
+#data.index=data.index.date
+col = pd.MultiIndex.from_product([[name],data.columns])
+col
+data.columns = col
+data
+
+data2 = alpaca.get_bars('SPY', TimeFrame.Day, start_date, end_date, adjustment='raw').df
+data2.drop(columns=['trade_count','vwap'], inplace=True)
+name2 = 'SPY'
+#data2.index=data2.index.date
+col2 = pd.MultiIndex.from_product([[name2],data2.columns])
+col2
+data2.columns = col2
+data2
+df_stock_data = data.merge(data2, how="inner", left_index=True, right_index=True)
+df_stock_data
+# Display sample data
+df_stock_data.head()

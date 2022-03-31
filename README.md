@@ -306,3 +306,7 @@ df_stock_data.head()
 
 ## data vision
 https://hvplot.holoviz.org/reference/pandas/scatter.html#pandas-gallery-scatter
+
+## groupby
+df.groupby('Company Name')['Amount'].agg(['sum','count'])
+df.groupby('Company Name').agg({'Amount': ['sum','count']})

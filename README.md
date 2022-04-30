@@ -316,3 +316,6 @@ df.groupby('Company Name').agg({'Amount': ['sum','count']}
 
 x7 = (x5 – 1)(6/4) + 1
 
+
+#### with in 
+ | (or) or & (and) operations
